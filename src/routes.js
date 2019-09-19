@@ -1,7 +1,17 @@
-import { createStackNavigator} from 'react-navigation-stack';
+import { createStackNavigator } from 'react-navigation-stack';
+import {createAppContainer}from 'react-navigation';
 
 import Main from './pages/Main';
-
-export default createStackNavigator({
+import Intro from './pages/Intro';
+export default Routes = createAppContainer(
+  createStackNavigator({
+    Intro,
     Main,
-});
+
+  },{
+    defaultNavigationOptions:{
+      headerTitle: 'Teste funcional'
+    },
+    mode: 'modal'
+  })
+);
