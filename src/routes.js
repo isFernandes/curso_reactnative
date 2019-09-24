@@ -9,9 +9,6 @@ export default Routes = createAppContainer(
     Main,
 
   },{
-    defaultNavigationOptions:{
-      headerTitle: 'Teste funcional'
-    },
     mode: 'modal'
   })
 );
