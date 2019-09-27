@@ -10,7 +10,7 @@ export default class Intro extends Component {
     header: null
   };
 
-  //ADC COMPONENTE SLIDE DA TELA BRANCA, COM WARNINGS
+  //ADC COMPONENTE SLIDE DEU TELA BRANCA, COM WARNINGS 3 WARNINGS DIZ QUE PRECISA ATT COMPONENTES (componentWillUpdate, componentWillReceiveProps, ViewPagerAndroid)
   render() {
     return (
      <View>
